@@ -1,10 +1,10 @@
 # AudioNest — Audio Recorder for Windows
 
-One button starts recording your microphone, one button stops and saves a clean WAV file to your Music folder - no setup, no time limit.
+Free microphone audio recorder for Windows - clean WAV, no limit
 
-## Download
+![AudioNest](screenshot.png)
 
-[Download the latest release](../../releases/latest) — portable build, no installer and no account.
+**[⬇ Download for Windows](../../releases/latest)** — free, no ads, no account, no sign-up. One small file, unzip and run.
 
 ## What it does
 
@@ -15,10 +15,21 @@ One button starts recording your microphone, one button stops and saves a clean 
 - Light and fast, works on low-end PCs
 - Free and open source, no ads and no telemetry
 
+## How to use
+
+1. Open AudioNest.
+2. Press Record - the timer starts and your microphone is captured.
+3. Press Stop - a clean WAV file is saved to Music\AudioNest.
+4. Press Open Folder to find your recordings.
+
 ## Requirements
 
-Windows 10 or 11, 64-bit. No admin rights, nothing written to the registry.
+Windows 10 or 11, 64-bit. No admin rights needed and nothing is written to the registry. It runs fine on weak, old and budget machines.
+
+## Privacy
+
+Everything happens on your PC. Nothing is uploaded, there is no telemetry, no ads and no account.
 
 ## Licence
 
-MIT. Free, no ads, no telemetry.
+MIT — free to use, free to share.
