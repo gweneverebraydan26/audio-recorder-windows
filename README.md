@@ -1,4 +1,4 @@
-# AudioNest — a lossless voice recorder for Windows 10 and 11
+# AudioNest — a lossless voice recorder windows app with hotkey start
 
 AudioNest is a lightweight voice recorder windows users can run straight from a folder, with no account and no watermark on the saved file. It captures your microphone to clean, lossless WAV and drops the take into your Music folder automatically, so you go from "press Record" to "file saved" in a couple of seconds. Free, offline, and tested on Windows 10 and Windows 11.
 
